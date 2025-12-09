@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Form X</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="overly"></div>
+    <div id="overlyOther"></div>
+    <header class="header">
+        <div class="header_wraper">
+            <div class="logo"><i class="fa-solid fa-fire"></i>FF<span class="last-x">x</span></div>
+            <div class="top_bar_item_middle">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" id="AddNewBtnT"class="addnewbtn"><i class="fa-solid fa-plus"></i>&nbsp;Add New</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i>&nbsp;History</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">About me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right_side_item">
+                <button class="Login"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Login</button>
+                <button id="openMenubar"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+    <div class="search_container">
+        <div class="search-container-tem">
+            <div class="search-con-wraper">
+                <div class="SearchInputs">
+                    <button id="DeleteText"><i class="fa-solid fa-xmark"></i></button>
+                    <div class="Input-ins-group">
+                        <input id="SearchTextData" type="text" placeholder="Search In...">
+                        <span id="DefineInput">
+                            <span>K</span>
+                            <span><i class="fa-solid fa-plus"></i></span>
+                            <span><i class="ri-command-line"></i></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="Res-Search-con">
+                <select name="" id="SelectTypeData">
+                    <option value="all">All Type</option>
+                    <option value="computer">Computer</option>
+                    <option value="software">Software</option>
+                    <option value="buisness">Buisness</option>
+                    <option value="school">School</option>
+                    <option value="medical">Medical</option>
+                </select>
+                <button id="EditType"><i class="fa-regular fa-pen-to-square"></i></button>
+                <button id="SearchBtn"><i class="ri-search-line"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <aside id="sidebar"class="sidebar">
+        <button id="HideSidebar"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="sidebar_wraper">
+            <button id="AddNewDataBtn"class="AddNewDataBtn">
+                <span><i class="fa-solid fa-plus"></i></span>
+                <span>Add New</span>
+            </button>
+        <ul>
+            <li><a href="#" class="selected"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+            <li><a href="#"><i class="fa-solid fa-shield-halved"></i>&nbsp;Privacy policy</a></li>
+            <li><a href="#"><i class="fa-solid fa-address-card"></i>&nbsp;About me</a></li>
+            <li><a href="#"><i class="fa-solid fa-book-open-reader"></i>&nbsp;Read Data</a></li>
+            <li><a href="#"><i class="fa-solid fa-clock-rotate-left"></i>&nbsp;History</a></li>
+        </ul>
+        <div class="footerDataSet">
+            <button id="settings"><i class="fa-solid fa-gear"></i></button>
+        </div>
+        </div>
+    </aside>
+    <main class="main">
+        <div class="main_wraper">
+            <div id="FormItem"></div>
+            <div id="DisplayItemContent">
+                <button id="backToHome">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <div id="SFDisplay"></div>
+            </div>
+            <div id="SearchContent"></div>
+        </div>
+        <div id="CreateNew">
+            <div class="AddNew_wraper_container">
+                            <button id="HideNewDataAddContainer"><i class="fa-solid fa-xmark"></i></button>
+                <div class="AddNew-header">
+                    <p>Create New&nbsp;<i class="fa-regular fa-pen-to-square"></i></p>
+                </div>
+                <div class="AddNew-main">
+                    <div class="main-header">
+                        <div class="sortAndFull-form-data">
+                            <input id="SortFormDataIn" type="text" placeholder="Sort: ">
+                            <input id="FullFormDataIn" type="text" placeholder="Full: ">
+                        </div>
+                        <div class="TypeOf">
+                            <input type="text" placeholder="Type Of">
+                            <select name="" id="TypeOfData">
+                                <option value="" disabled selected>Select type</option>
+                                <option value="computer">Computer</option>
+                                <option value="software">Software</option>
+                                <option value="Programming">Programming</option>
+                                <option value="AI & Data">AI & Data</option>
+                                <option value="Buisness">Buisness</option>
+                            </select>
+                            <input type="text" placeholder="fontawesome Icon">
+                        </div>
+                        <div class="Submit-btn">
+                            <button id="AddDataBtn">Add Now&nbsp;<i class="fa-solid fa-pen-to-square"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="Footer-container">
+            <p>Created By Tuhin - All Right reserve&nbsp;<i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="data.js"></script>
+</body>
+</html>
