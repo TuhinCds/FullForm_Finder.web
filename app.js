@@ -1,4 +1,4 @@
-import { FullFormData } from './data.js'
+import { FullFormData } from './FullFormFinder/data.js'
 
 
 const DeleteText = document.getElementById('DeleteText')
