@@ -24,12 +24,20 @@ body {
     'search-con search-con'
     'main main'
     'footer footer'
+
     
     ;
+    overscroll-behavior: none;
     grid-template-columns: 1fr ;
     grid-template-rows: var(--header1-height) var(--header2-height) 1fr var(--footer-height);
     font-family: 'Inter', sans-serif;
     transition: grid-template-columns .4s; 
+}
+body, html {
+    padding: env(safe-area-inset-top) 
+             env(safe-area-inset-right)
+             env(safe-area-inset-bottom)
+             env(safe-area-inset-left);
 }
 .header {
     grid-area: header;
